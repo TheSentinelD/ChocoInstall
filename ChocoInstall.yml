@@ -5,12 +5,12 @@
    - name: Install z Chocolatey
      win_chocolatey: 
       name: "{{ aplikace1 }}"
-     state: "{{ stav }}"
+      state: "{{ stav }}"
    - name: Install z Chocolatey
      win_chocolatey: 
       name: "{{ aplikace2 }}"
-     state: "{{ stav }}"
+      state: "{{ stav }}"
    - name: Install z Chocolatey
      win_chocolatey: 
       name: "{{ aplikace3 }}"
-     state: "{{ stav }}"
+      state: "{{ stav }}"
