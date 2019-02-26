@@ -4,7 +4,20 @@
   tasks: 
    - name: Install z Chocolatey
      win_chocolatey: 
-      name: 
-       - notepadplusplus
-       - firefox
+      name: "{{ aplikace1 }}"
+      state: "{{ stav }}"
+      
+   - name: Install z Chocolatey
+     win_chocolatey: 
+      name: "{{ aplikace2 }}"
+      state: "{{ stav }}"
+      
+   - name: Install z Chocolatey
+     win_chocolatey: 
+      name: "{{ aplikace3 }}"
+      state: "{{ stav }}"
+      
+   - name: Install z Chocolatey
+     win_chocolatey: 
+      name: "{{ aplikace4 }}"
       state: "{{ stav }}"
