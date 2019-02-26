@@ -4,5 +4,7 @@
   tasks: 
    - name: Install z Chocolatey
      win_chocolatey: 
-      name: "{{ aplikace1 }}"
+      name: 
+       - notepadplusplus
+       - firefox
       state: "{{ stav }}"
