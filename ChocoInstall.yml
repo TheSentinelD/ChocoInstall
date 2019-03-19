@@ -1,23 +1,9 @@
-﻿---
+---
 - name: Install z Chocolatey
   hosts: "{{ seznam_stanic }}"
   tasks: 
    - name: Install z Chocolatey
      win_chocolatey: 
-      name: "{{ aplikace1 }}"
+      name: "{{ apka }}"
       state: "{{ stav }}"
       
-   - name: Install z Chocolatey
-     win_chocolatey: 
-      name: "{{ aplikace2 }}"
-      state: "{{ stav }}"
-      
-   - name: Install z Chocolatey
-     win_chocolatey: 
-      name: "{{ aplikace3 }}"
-      state: "{{ stav }}"
-      
-   - name: Install z Chocolatey
-     win_chocolatey: 
-      name: "{{ aplikace4 }}"
-      state: "{{ stav }}"
