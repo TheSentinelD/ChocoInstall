@@ -6,4 +6,5 @@
      win_chocolatey: 
       name: "{{ apka }}"
       state: "{{ stav }}"
-      
+     ignore_errors: yes
+     
