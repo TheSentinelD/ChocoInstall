@@ -6,3 +6,4 @@
     win_shell: | 
      Set-ExecutionPolicy Bypass -Scope Process -Force; `
       iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ignore_errors: yes
